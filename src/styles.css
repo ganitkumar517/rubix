@@ -1,0 +1,65 @@
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+}
+.navBar{
+    background-color: #000;
+    border-color: #e7e7e7;
+    margin: 0;
+    height: 100px;
+    padding: 10px;
+    text-align: end;
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: fixed;
+    width: 98%;
+    margin-bottom: 10px;
+    
+  }
+
+a{
+  margin-left: 10px;
+  color: white;
+  text-decoration: none;
+}
+#img{
+width: 355px;
+height: 75px;
+display: flex;
+justify-content: flex-start;
+}
+.slide1{
+  
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  
+}
+.slide{
+width: 100%;
+
+}
+#p{
+
+  position: relative;
+}
+#text1{
+  background-color: white;
+  text-transform: uppercase;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+.form{
+  text-transform: uppercase;
+  height: 300px;
+  text-align: center;
+  border: black 2px solid;
+  margin: 10px;
+  background-color: gainsboro;
+}
